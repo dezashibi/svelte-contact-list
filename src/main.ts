@@ -1,4 +1,5 @@
 import App from './App.svelte';
+import 'milligram/dist/milligram.css'
 
 // Attempt to get the element
 const appElement = document.getElementById('app');
