@@ -1,6 +1,5 @@
 <script lang="ts">
     import contactStore from "../stores/Contact.store";
-    import type { Contact } from "../types/Contact";
 
     function onSelectForEdit(id: string) {
         contactStore.selectContact(id);
